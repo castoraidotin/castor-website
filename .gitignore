@@ -3,6 +3,9 @@ dist/
 dev-server*.log
 home-*.png
 logo-check.png
+linkedin_profile.png
+linkedin_profile.svg
+neural_favicon_final.svg
 chrome-debug-profile/
 chrome-responsive-profile/
 .env

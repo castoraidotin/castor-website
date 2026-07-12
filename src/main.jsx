@@ -1,5 +1,6 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import { Analytics } from '@vercel/analytics/react';
 import './styles.css';
 
 const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_FORM_ID;
@@ -340,6 +341,7 @@ function App() {
         {page}
       </main>
       <Footer navigate={navigate} />
+      <Analytics />
     </div>
   );
 }
